@@ -25,14 +25,14 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background(r"source\back-modified.png")
+set_background(r"source/back-modified.png")
 col1, col2, col3 = st.columns([3,5,1])
 
 with col1:
     st.write("")
 
 with col2:
-    st.image(r"source\red.png", caption=None, width=500, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
+    st.image(r"source/red.png", caption=None, width=500, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
 
 with col3:
     st.write("")
@@ -87,17 +87,17 @@ st.write("")
 col1,col2,col3,col4,col5,col6 = st.columns([2,2,1,1,2,1])
 
 with col1:
-    st.image(r"source\Apache_Spark_logo.svg.png", caption=None, width=150, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
+    st.image(r"source/Apache_Spark_logo.svg.png", caption=None, width=150, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
 with col2:
-    st.image(r"source\MongoDB_Logo.svg.png", caption=None, width=200, use_column_width=False, clamp=False, channels="RGB", output_format="auto")   
+    st.image(r"source/MongoDB_Logo.svg.png", caption=None, width=200, use_column_width=False, clamp=False, channels="RGB", output_format="auto")   
 with col3:
-    st.image(r"source\pythonlogo.png", caption=None, width=150, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
+    st.image(r"source/pythonlogo.png", caption=None, width=150, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
 with col4:
     st.write("")
 with col5:
-    st.image(r"source\Tableau-Logo.png", caption=None, width=200, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
+    st.image(r"source/Tableau-Logo.png", caption=None, width=200, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
 with col6:
-    st.image(r"source\1200px-Scikit_learn_logo_small.svg.png", caption=None, width=150, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
+    st.image(r"source/1200px-Scikit_learn_logo_small.svg.png", caption=None, width=150, use_column_width=False, clamp=False, channels="RGB", output_format="auto")
 
                 
 

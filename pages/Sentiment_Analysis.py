@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(
     page_title="Sentiment",
     layout="wide",
-    page_icon=r"source\185979.png",
+    page_icon=r"source/185979.png",
 )
 
 

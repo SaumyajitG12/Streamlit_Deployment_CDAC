@@ -3,7 +3,7 @@ from helper import *
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(
-    layout="wide", page_title='Yelp Data | Overall', page_icon=r'pages\source\red.png')
+    layout="wide", page_title='Yelp Data | Overall', page_icon=r'source/red.png')
 
 
 df = get_data_1()
