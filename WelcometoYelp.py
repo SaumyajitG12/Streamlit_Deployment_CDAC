@@ -25,7 +25,7 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background(r"source\a938cfeb3c8d46a245aec6a425cdafca-modified.png")
+set_background(r"source\back-modified.png")
 col1, col2, col3 = st.columns([3,5,1])
 
 with col1:
